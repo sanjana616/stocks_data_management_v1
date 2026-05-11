@@ -1,11 +1,11 @@
 import os
 import sqlite3
 import logging
+from logging.handlers import RotatingFileHandler
 from datetime import datetime
 import pytz
 import yfinance as yf
 import pandas as pd
-from tabulate import tabulate
 
 
 # ----------------------------
@@ -22,12 +22,20 @@ STOCKS = [
     "SUNPHARMA.NS", "WIPRO.NS", "POWERGRID.NS", "NTPC.NS", "ONGC.NS"
 ]
 
-# Setup logging
-logging.basicConfig(
+# Setup logging with file size rotation
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
+# RotatingFileHandler: 5MB max file size, keep 5 backup files
+handler = RotatingFileHandler(
     filename="data_fetch.log",
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s"
+    maxBytes=5 * 1024 * 1024,  # 5 MB
+    backupCount=5  # Keep 5 backup files (data_fetch.log.1, .2, .3, .4, .5)
 )
+
+formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+handler.setFormatter(formatter)
+logger.addHandler(handler)
 
 # IST timezone
 IST = pytz.timezone("Asia/Kolkata")
@@ -80,7 +88,7 @@ def insert_data(stock, df):
 
     conn.commit()
     conn.close()
-    logging.info(f"[{stock}] Inserted {len(rows)} rows (duplicates ignored)")
+    logger.info(f"[{stock}] Inserted {len(rows)} rows (duplicates ignored)")
 
 # ----------------------------
 # DATA FETCHING
@@ -96,7 +104,7 @@ def fetch_stock_data(stock):
 
         
         if df.empty:
-            logging.warning(f"No data returned for {stock}")
+            logger.warning(f"No data returned for {stock}")
             return None
 
         # Reset index to get datetime as column
@@ -107,7 +115,7 @@ def fetch_stock_data(stock):
         df["Datetime"] = df["Datetime"].dt.tz_convert(IST)
         
         df["Volume"] = pd.to_numeric(df["Volume"], errors="coerce").fillna(0).astype(int)
-        # df["Volume"] = df["Volume"] * 1 
+        df["Volume"] = df["Volume"] * 1 
 
         df.rename(columns={
             "Datetime": "datetime",
@@ -125,7 +133,7 @@ def fetch_stock_data(stock):
         return df[["datetime", "open", "high", "low", "close", "volume"]]
 
     except Exception as e:
-        logging.error(f"Error fetching data for {stock}: {e}")
+        logger.error(f"Error fetching data for {stock}: {e}")
         return None
 
 
@@ -158,7 +166,7 @@ def update_readme():
                     f.write(f"  <tr><td>{row['datetime']}</td><td>{row['close']}</td><td>{row['volume']}</td></tr>\n")
                 f.write('</table>\n\n')
             except Exception as e:
-                logging.error(f"Error updating README for {stock}: {e}")
+                logger.error(f"Error updating README for {stock}: {e}")
 
     conn.close()
 
@@ -167,19 +175,19 @@ def update_readme():
 # MAIN WORKFLOW
 # ----------------------------
 def main():
-    logging.info("Starting data fetch cycle...")
+    logger.info("Starting data fetch cycle...")
     init_db()
 
     for stock in STOCKS:
         df = fetch_stock_data(stock)
         if df is not None and not df.empty:
             insert_data(stock, df)
-            logging.info(f"Inserted {len(df)} rows for {stock}")
+            logger.info(f"Inserted {len(df)} rows for {stock}")
         else:
-            logging.warning(f"No data to insert for {stock}")
+            logger.warning(f"No data to insert for {stock}")
 
     update_readme()
-    logging.info("Cycle complete. README updated.")
+    logger.info("Cycle complete. README updated.")
 
 
 if __name__ == "__main__":
