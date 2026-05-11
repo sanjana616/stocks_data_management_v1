@@ -1,4 +1,4 @@
-name: data_fetch_py_no_installation_every_run
+name: Data Fetch High Cap
 
 on:
   workflow_dispatch:   # Manual trigger
