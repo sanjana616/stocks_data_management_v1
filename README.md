@@ -1,164 +1,98 @@
-# 📈 NIFTY50 Top 20 Data Snapshot
+# Stock Data Fetcher
 
-Last updated: 2026-05-01 17:03:14 IST
+This repository fetches minute-level stock price data from Yahoo Finance, stores it in a local SQLite database, and writes a summary output to `README.md`.
 
-## RELIANCE.NS
+## Prerequisites
 
-<table>
-  <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-03-17 13:11:00+05:30</td><td>1399.5</td><td>0</td></tr>
-  <tr><td>2026-03-17 13:10:00+05:30</td><td>1399.5</td><td>26636</td></tr>
-</table>
+- Python 3.8+ installed
+- Internet connection for Yahoo Finance data
+- The following Python packages installed:
+  - `pytz`
+  - `yfinance`
+  - `pandas`
 
-## HDFCBANK.NS
+Install dependencies with:
 
-<table>
-  <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-03-17 13:11:00+05:30</td><td>844.8499755859375</td><td>0</td></tr>
-  <tr><td>2026-03-17 13:10:00+05:30</td><td>844.5999755859375</td><td>69002</td></tr>
-</table>
+```bash
+pip install -r requirements.txt
+```
 
-## ICICIBANK.NS
+## How to run
 
-<table>
-  <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-03-17 13:11:00+05:30</td><td>1283.4000244140625</td><td>0</td></tr>
-  <tr><td>2026-03-17 13:10:00+05:30</td><td>1283.5999755859375</td><td>48489</td></tr>
-</table>
+Run the main script from the repository root:
 
-## INFY.NS
+```bash
+python data_fetch.py
+```
 
-<table>
-  <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-03-17 13:11:00+05:30</td><td>1233.0999755859375</td><td>0</td></tr>
-  <tr><td>2026-03-17 13:10:00+05:30</td><td>1232.800048828125</td><td>13648</td></tr>
-</table>
+When the script starts, it reads `symbols.json` and prompts you to enter the key for the symbol set you want to use.
 
-## TCS.NS
+Example prompt:
 
-<table>
-  <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-03-17 13:11:00+05:30</td><td>2396.300048828125</td><td>0</td></tr>
-  <tr><td>2026-03-17 13:10:00+05:30</td><td>2395.800048828125</td><td>3059</td></tr>
-</table>
+```text
+Enter the key for STOCKS in symbols.json ['STOCKS', 'large_cap', 'mid_cap', 'small_cap']: 
+```
 
-## ITC.NS
+Enter one of the available keys exactly as shown.
 
-<table>
-  <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-03-17 13:11:00+05:30</td><td>306.5</td><td>0</td></tr>
-  <tr><td>2026-03-17 13:10:00+05:30</td><td>306.5</td><td>35978</td></tr>
-</table>
+## How output is generated
 
-## HINDUNILVR.NS
+When `data_fetch.py` runs:
 
-<table>
-  <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-03-17 13:11:00+05:30</td><td>2158.699951171875</td><td>0</td></tr>
-  <tr><td>2026-03-17 13:10:00+05:30</td><td>2158.0</td><td>2493</td></tr>
-</table>
+1. It loads the selected symbol list from `symbols.json`.
+2. It creates a local SQLite database file and table(s) for each symbol.
+3. It downloads 1-minute interval price data for each symbol.
+4. It inserts the fetched rows into the database using `INSERT OR IGNORE` to avoid duplicates.
+5. It updates `README.md` with the latest snapshot table rows for each symbol.
+6. It writes logs to `data_fetch.log` with rotation enabled when the file exceeds 5 MB.
 
-## SBIN.NS
+## Result files
 
-<table>
-  <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-03-17 13:11:00+05:30</td><td>1057.0</td><td>0</td></tr>
-  <tr><td>2026-03-17 13:10:00+05:30</td><td>1057.0</td><td>13609</td></tr>
-</table>
+- `*.db` — SQLite database containing data for the selected symbol set.
+- `README.md` — updated stock data snapshot and timestamp.
+- `data_fetch.log` — runtime log file with size-based rotation.
 
-## BHARTIARTL.NS
+## How to update `symbols.json`
 
-<table>
-  <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-03-17 13:11:00+05:30</td><td>1820.9000244140625</td><td>0</td></tr>
-  <tr><td>2026-03-17 13:10:00+05:30</td><td>1820.9000244140625</td><td>29061</td></tr>
-</table>
+Open `symbols.json` and add or modify keys at the top level. Each key should hold a list of ticker symbols.
 
-## KOTAKBANK.NS
+Example structure:
 
-<table>
-  <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-03-17 13:11:00+05:30</td><td>373.1000061035156</td><td>0</td></tr>
-  <tr><td>2026-03-17 13:10:00+05:30</td><td>373.1000061035156</td><td>24984</td></tr>
-</table>
+```json
+{
+  "STOCKS": [
+    "RELIANCE.NS",
+    "HDFCBANK.NS",
+    "INFY.NS"
+  ],
+  "large_cap": [
+    "RELIANCE.NS",
+    "HDFCBANK.NS"
+  ],
+  "mid_cap": [
+    "ALKEM.NS",
+    "APLAPOLLO.NS"
+  ]
+}
+```
 
-## LT.NS
+To use a different symbol set, update the list under the desired key, save the file, and run `python data_fetch.py` again.
 
-<table>
-  <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-03-17 13:11:00+05:30</td><td>3499.0</td><td>0</td></tr>
-  <tr><td>2026-03-17 13:10:00+05:30</td><td>3498.5</td><td>7101</td></tr>
-</table>
+## How to choose the desired symbols
 
-## AXISBANK.NS
+When the script runs, type the exact key name from `symbols.json` that corresponds to the symbol list you want.
 
-<table>
-  <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-03-17 13:11:00+05:30</td><td>1230.699951171875</td><td>0</td></tr>
-  <tr><td>2026-03-17 13:10:00+05:30</td><td>1229.800048828125</td><td>13490</td></tr>
-</table>
+For example:
 
-## BAJFINANCE.NS
+- `STOCKS` to use the default top 20 list
+- `large_cap` to use the large-cap list
+- `mid_cap` to use the mid-cap list
+- `small_cap` to use the small-cap list
 
-<table>
-  <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-03-17 13:11:00+05:30</td><td>865.6500244140625</td><td>0</td></tr>
-  <tr><td>2026-03-17 13:10:00+05:30</td><td>865.5499877929688</td><td>12167</td></tr>
-</table>
+If the key is missing or invalid, the script will raise an error.
 
-## ASIANPAINT.NS
+## Notes
 
-<table>
-  <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-03-17 13:11:00+05:30</td><td>2231.300048828125</td><td>0</td></tr>
-  <tr><td>2026-03-17 13:10:00+05:30</td><td>2231.39990234375</td><td>3428</td></tr>
-</table>
-
-## MARUTI.NS
-
-<table>
-  <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-03-17 13:11:00+05:30</td><td>12917.0</td><td>0</td></tr>
-  <tr><td>2026-03-17 13:10:00+05:30</td><td>12916.0</td><td>688</td></tr>
-</table>
-
-## SUNPHARMA.NS
-
-<table>
-  <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-03-17 13:11:00+05:30</td><td>1803.5</td><td>0</td></tr>
-  <tr><td>2026-03-17 13:10:00+05:30</td><td>1804.0</td><td>6582</td></tr>
-</table>
-
-## WIPRO.NS
-
-<table>
-  <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-03-17 13:11:00+05:30</td><td>190.9600067138672</td><td>0</td></tr>
-  <tr><td>2026-03-17 13:10:00+05:30</td><td>190.91000366210938</td><td>35947</td></tr>
-</table>
-
-## POWERGRID.NS
-
-<table>
-  <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-03-17 13:11:00+05:30</td><td>295.8999938964844</td><td>0</td></tr>
-  <tr><td>2026-03-17 13:10:00+05:30</td><td>295.8999938964844</td><td>14665</td></tr>
-</table>
-
-## NTPC.NS
-
-<table>
-  <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-03-17 13:11:00+05:30</td><td>381.75</td><td>0</td></tr>
-  <tr><td>2026-03-17 13:10:00+05:30</td><td>381.54998779296875</td><td>13091</td></tr>
-</table>
-
-## ONGC.NS
-
-<table>
-  <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-03-17 13:11:00+05:30</td><td>261.70001220703125</td><td>0</td></tr>
-  <tr><td>2026-03-17 13:10:00+05:30</td><td>261.95001220703125</td><td>43054</td></tr>
-</table>
-
+- Keep `symbols.json` in the same directory as `data_fetch.py`.
+- The script currently uses Yahoo Finance tickers with `.NS` for NSE India.
+- The generated `README.md` title is preserved between runs, and only the stock data snapshot is refreshed.

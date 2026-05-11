@@ -1,5 +1,7 @@
 import os
+import sys
 import sqlite3
+import json
 import logging
 from logging.handlers import RotatingFileHandler
 from datetime import datetime
@@ -13,14 +15,13 @@ import pandas as pd
 # ----------------------------
 DB_NAME = "nifty50_top20.db"
 README_FILE = "README.md"
+SYMBOLS_FILE = "symbols.json"
+
+# IST timezone
+IST = pytz.timezone("Asia/Kolkata")
 
 # Top 20 NIFTY50 stocks (symbols must match Yahoo Finance format, ".NS" for NSE India)
-STOCKS = [
-    "RELIANCE.NS", "HDFCBANK.NS", "ICICIBANK.NS", "INFY.NS", "TCS.NS",
-    "ITC.NS", "HINDUNILVR.NS", "SBIN.NS", "BHARTIARTL.NS", "KOTAKBANK.NS",
-    "LT.NS", "AXISBANK.NS", "BAJFINANCE.NS", "ASIANPAINT.NS", "MARUTI.NS",
-    "SUNPHARMA.NS", "WIPRO.NS", "POWERGRID.NS", "NTPC.NS", "ONGC.NS"
-]
+STOCKS = []
 
 # Setup logging with file size rotation
 logger = logging.getLogger(__name__)
@@ -36,9 +37,6 @@ handler = RotatingFileHandler(
 formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
 handler.setFormatter(formatter)
 logger.addHandler(handler)
-
-# IST timezone
-IST = pytz.timezone("Asia/Kolkata")
 
 
 # ----------------------------
@@ -70,13 +68,13 @@ def insert_data(stock, df):
     conn = sqlite3.connect(DB_NAME)
     cursor = conn.cursor()
 
-    # Convert datetime column to string
-    df["datetime"] = df["datetime"].astype(str)
+    # Convert datetime column to string, removing timezone
+    df["datetime"] = df["datetime"].dt.tz_localize(None).astype(str)
     df["volume"] = df["volume"].astype(int)
-    print("My data is \n",df.head(2))
+    print(f"My data is \n{df.tail(2)}")
 
     rows = df[["datetime", "open", "high", "low", "close", "volume"]].values.tolist()
-    print("rows", rows[:2])
+    print(f"rows: {rows[-2:]}")
 
     cursor.executemany(
         f"""
@@ -98,7 +96,7 @@ def fetch_stock_data(stock):
     try:
         df = yf.download(
             tickers=stock,
-            interval="1m",
+            interval="15m",
             period="1d",
             progress=True)
 
@@ -141,12 +139,20 @@ def fetch_stock_data(stock):
 # README UPDATE
 # ----------------------------
 def update_readme():
-    """Append last 2 rows from each stock table to README.md using HTML table."""
+    """Append last 2 rows from each stock table to README.md using HTML table, preserving the title."""
     conn = sqlite3.connect(DB_NAME)
     cursor = conn.cursor()
 
+    # Preserve the title from existing README or use default
+    title = f"# 📈 {README_FILE[:-3]} Data Snapshot\n\n"
+    if os.path.exists(README_FILE):
+        with open(README_FILE, "r", encoding="utf-8") as f:
+            first_line = f.readline()
+            if first_line.startswith("# "):
+                title = first_line + "\n"  # Include the newline
+
     with open(README_FILE, "w", encoding="utf-8") as f:
-        f.write("# 📈 NIFTY50 Top 20 Data Snapshot\n\n")
+        f.write(title)
         f.write(f"Last updated: {datetime.now(IST).strftime('%Y-%m-%d %H:%M:%S %Z')}\n\n")
 
         for stock in STOCKS:
@@ -191,4 +197,27 @@ def main():
 
 
 if __name__ == "__main__":
+    # IST timezone
+    IST = pytz.timezone("Asia/Kolkata")
+    SYMBOLS_FILE = "symbols.json"
+    try:
+        if not os.path.exists(SYMBOLS_FILE):
+            raise FileNotFoundError(f"Symbols file not found: {SYMBOLS_FILE}")
+
+        with open(SYMBOLS_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        
+        if len(sys.argv) > 1:
+            symbols_key = sys.argv[1]
+        else:
+            symbols_key = data.keys().__iter__().__next__()  # Get the first key if no argument provided
+        stocks = data.get(symbols_key)
+        if not isinstance(stocks, list) or not stocks:
+            raise ValueError(f"Invalid or empty STOCKS list in {SYMBOLS_FILE} for key '{symbols_key}'")
+    except Exception as e:
+        logger.error(f"Error loading symbols: {e}")
+        exit(1)
+    STOCKS = stocks
+    DB_NAME = f"{symbols_key}.db"
+    README_FILE = f"{symbols_key}.md"
     main()
