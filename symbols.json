@@ -22,7 +22,7 @@
         "ONGC.NS"
     ],
 
-    "High Cap": [
+    "Large Cap": [
         "RELIANCE.NS",
         "HDFCBANK.NS",
         "ICICIBANK.NS",
@@ -67,7 +67,7 @@
         "HINDPETRO.NS",
         "ICICIBANK.NS"
     ],
-    "Low Cap": [
+    "Small Cap": [
         "LALPATHLAB.NS",
         "PIRAMALFIN.NS",
         "NBCC.NS",

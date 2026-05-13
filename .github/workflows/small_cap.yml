@@ -1,4 +1,4 @@
-name: Data Fetch High Cap
+name: Data Fetch Small Cap
 
 on:
   workflow_dispatch:   # Manual trigger
@@ -32,7 +32,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run script
-        run: python data_fetch.py "High Cap"
+        run: python data_fetch.py "Small Cap"
 
       - name: Commit and push changes
         run: |
