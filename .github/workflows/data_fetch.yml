@@ -38,9 +38,18 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Stage all changes
           git add . || true
+          
+          # Only proceed if there are actual changes to commit
           if ! git diff --cached --quiet; then
             git commit -m "Automated data update: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            
+            # Pull latest changes and rebase your new commit on top of them
+            git pull --rebase origin main
+            
+            # Now push the combined work
             git push
           else
             echo "No changes to commit"
