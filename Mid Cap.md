@@ -1,6 +1,6 @@
 # 📈 Mid Cap Data Snapshot
 
-Last updated: 2026-05-15 17:05:27 IST
+Last updated: 2026-05-16 11:12:35 IST
 
 ## ALKEM.NS
 
@@ -14,7 +14,7 @@ Last updated: 2026-05-15 17:05:27 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-05-15 15:29:00</td><td>1890.199951171875</td><td>4597</td></tr>
+  <tr><td>2026-05-15 15:29:00</td><td>1890.199951171875</td><td>4598</td></tr>
   <tr><td>2026-05-15 15:28:00</td><td>1893.5999755859375</td><td>1603</td></tr>
 </table>
 
@@ -38,7 +38,7 @@ Last updated: 2026-05-15 17:05:27 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-05-15 15:29:00</td><td>1511.800048828125</td><td>2768</td></tr>
+  <tr><td>2026-05-15 15:29:00</td><td>1511.800048828125</td><td>2849</td></tr>
   <tr><td>2026-05-15 15:28:00</td><td>1512.9000244140625</td><td>2594</td></tr>
 </table>
 
@@ -94,7 +94,7 @@ Last updated: 2026-05-15 17:05:27 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-05-15 15:29:00</td><td>10979.0</td><td>2384</td></tr>
+  <tr><td>2026-05-15 15:29:00</td><td>10979.0</td><td>2438</td></tr>
   <tr><td>2026-05-15 15:28:00</td><td>10985.0</td><td>2000</td></tr>
 </table>
 
@@ -110,7 +110,7 @@ Last updated: 2026-05-15 17:05:27 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-05-15 15:29:00</td><td>963.6500244140625</td><td>2519</td></tr>
+  <tr><td>2026-05-15 15:29:00</td><td>963.6500244140625</td><td>2598</td></tr>
   <tr><td>2026-05-15 15:28:00</td><td>964.0</td><td>3190</td></tr>
 </table>
 
@@ -158,7 +158,7 @@ Last updated: 2026-05-15 17:05:27 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-05-15 15:29:00</td><td>1244.5</td><td>103651</td></tr>
+  <tr><td>2026-05-15 15:29:00</td><td>1244.5</td><td>103691</td></tr>
   <tr><td>2026-05-15 15:28:00</td><td>1245.0</td><td>126487</td></tr>
 </table>
 
