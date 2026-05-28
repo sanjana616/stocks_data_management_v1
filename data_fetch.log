@@ -3610,3 +3610,45 @@
 2026-05-27 11:42:50,248 - INFO - [ONGC.NS] Inserted 375 rows (duplicates ignored)
 2026-05-27 11:42:50,248 - INFO - Inserted 375 rows for ONGC.NS
 2026-05-27 11:42:50,260 - INFO - Cycle complete. README updated.
+2026-05-28 07:45:14,241 - INFO - Starting data fetch cycle...
+2026-05-28 07:45:14,620 - WARNING - No data returned for ALKEM.NS
+2026-05-28 07:45:14,620 - WARNING - No data to insert for ALKEM.NS
+2026-05-28 07:45:14,734 - WARNING - No data returned for APLAPOLLO.NS
+2026-05-28 07:45:14,734 - WARNING - No data to insert for APLAPOLLO.NS
+2026-05-28 07:45:14,859 - WARNING - No data returned for ASHOKLEY.NS
+2026-05-28 07:45:14,859 - WARNING - No data to insert for ASHOKLEY.NS
+2026-05-28 07:45:14,963 - WARNING - No data returned for AUBANK.NS
+2026-05-28 07:45:14,963 - WARNING - No data to insert for AUBANK.NS
+2026-05-28 07:45:15,088 - WARNING - No data returned for AUROPHARMA.NS
+2026-05-28 07:45:15,088 - WARNING - No data to insert for AUROPHARMA.NS
+2026-05-28 07:45:15,214 - WARNING - No data returned for BHARATFORG.NS
+2026-05-28 07:45:15,215 - WARNING - No data to insert for BHARATFORG.NS
+2026-05-28 07:45:15,349 - WARNING - No data returned for BHEL.NS
+2026-05-28 07:45:15,349 - WARNING - No data to insert for BHEL.NS
+2026-05-28 07:45:15,455 - WARNING - No data returned for BSE.NS
+2026-05-28 07:45:15,455 - WARNING - No data to insert for BSE.NS
+2026-05-28 07:45:15,580 - WARNING - No data returned for COFORGE.NS
+2026-05-28 07:45:15,581 - WARNING - No data to insert for COFORGE.NS
+2026-05-28 07:45:15,705 - WARNING - No data returned for COLPAL.NS
+2026-05-28 07:45:15,705 - WARNING - No data to insert for COLPAL.NS
+2026-05-28 07:45:15,840 - WARNING - No data returned for DABUR.NS
+2026-05-28 07:45:15,840 - WARNING - No data to insert for DABUR.NS
+2026-05-28 07:45:15,945 - WARNING - No data returned for DIXON.NS
+2026-05-28 07:45:15,945 - WARNING - No data to insert for DIXON.NS
+2026-05-28 07:45:16,090 - WARNING - No data returned for FEDERALBNK.NS
+2026-05-28 07:45:16,090 - WARNING - No data to insert for FEDERALBNK.NS
+2026-05-28 07:45:16,206 - WARNING - No data returned for FORTIS.NS
+2026-05-28 07:45:16,206 - WARNING - No data to insert for FORTIS.NS
+2026-05-28 07:45:16,321 - WARNING - No data returned for GMRAIRPORT.NS
+2026-05-28 07:45:16,321 - WARNING - No data to insert for GMRAIRPORT.NS
+2026-05-28 07:45:16,427 - WARNING - No data returned for GODREJPROP.NS
+2026-05-28 07:45:16,427 - WARNING - No data to insert for GODREJPROP.NS
+2026-05-28 07:45:16,552 - WARNING - No data returned for HAVELLS.NS
+2026-05-28 07:45:16,552 - WARNING - No data to insert for HAVELLS.NS
+2026-05-28 07:45:16,678 - WARNING - No data returned for HEROMOTOCO.NS
+2026-05-28 07:45:16,678 - WARNING - No data to insert for HEROMOTOCO.NS
+2026-05-28 07:45:16,813 - WARNING - No data returned for HINDPETRO.NS
+2026-05-28 07:45:16,813 - WARNING - No data to insert for HINDPETRO.NS
+2026-05-28 07:45:16,948 - WARNING - No data returned for ICICIBANK.NS
+2026-05-28 07:45:16,948 - WARNING - No data to insert for ICICIBANK.NS
+2026-05-28 07:45:16,959 - INFO - Cycle complete. README updated.
