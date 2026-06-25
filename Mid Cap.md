@@ -1,13 +1,13 @@
 # 📈 Mid Cap Data Snapshot
 
-Last updated: 2026-06-25 15:58:18 IST
+Last updated: 2026-06-25 18:07:06 IST
 
 ## ALKEM.NS
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-06-25 15:29:00</td><td>5425.0</td><td>299</td></tr>
   <tr><td>2026-06-25 15:28:00</td><td>5411.5</td><td>623</td></tr>
-  <tr><td>2026-06-25 15:27:00</td><td>5424.5</td><td>2350</td></tr>
 </table>
 
 ## APLAPOLLO.NS
@@ -22,8 +22,8 @@ Last updated: 2026-06-25 15:58:18 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-06-25 15:29:00</td><td>160.67999267578125</td><td>154924</td></tr>
   <tr><td>2026-06-25 15:28:00</td><td>161.02000427246094</td><td>443758</td></tr>
-  <tr><td>2026-06-25 15:27:00</td><td>161.0500030517578</td><td>186236</td></tr>
 </table>
 
 ## AUBANK.NS
