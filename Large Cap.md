@@ -1,6 +1,6 @@
 # 📈 High Cap Data Snapshot
 
-Last updated: 2026-07-03 15:35:55 IST
+Last updated: 2026-07-03 17:49:29 IST
 
 ## RELIANCE.NS
 
@@ -118,8 +118,8 @@ Last updated: 2026-07-03 15:35:55 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-07-03 15:29:00</td><td>14366.0</td><td>1605</td></tr>
   <tr><td>2026-07-03 15:28:00</td><td>14353.0</td><td>1494</td></tr>
-  <tr><td>2026-07-03 15:27:00</td><td>14366.0</td><td>2341</td></tr>
 </table>
 
 ## SUNPHARMA.NS
