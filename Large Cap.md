@@ -1,13 +1,13 @@
 # 📈 High Cap Data Snapshot
 
-Last updated: 2026-07-14 15:45:55 IST
+Last updated: 2026-07-14 17:22:08 IST
 
 ## RELIANCE.NS
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-07-14 15:29:00</td><td>1293.0</td><td>31799</td></tr>
   <tr><td>2026-07-14 15:28:00</td><td>1295.5</td><td>46022</td></tr>
-  <tr><td>2026-07-14 15:27:00</td><td>1295.5</td><td>67228</td></tr>
 </table>
 
 ## HDFCBANK.NS
@@ -70,8 +70,8 @@ Last updated: 2026-07-14 15:45:55 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-07-14 15:29:00</td><td>1936.5</td><td>14944</td></tr>
   <tr><td>2026-07-14 15:28:00</td><td>1932.0</td><td>37107</td></tr>
-  <tr><td>2026-07-14 15:27:00</td><td>1932.800048828125</td><td>37442</td></tr>
 </table>
 
 ## KOTAKBANK.NS
@@ -118,16 +118,16 @@ Last updated: 2026-07-14 15:45:55 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-07-14 15:29:00</td><td>13489.0</td><td>914</td></tr>
   <tr><td>2026-07-14 15:28:00</td><td>13475.0</td><td>2089</td></tr>
-  <tr><td>2026-07-14 15:27:00</td><td>13484.0</td><td>1411</td></tr>
 </table>
 
 ## SUNPHARMA.NS
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-07-14 15:29:00</td><td>1942.5999755859375</td><td>6651</td></tr>
   <tr><td>2026-07-14 15:28:00</td><td>1943.4000244140625</td><td>13274</td></tr>
-  <tr><td>2026-07-14 15:27:00</td><td>1942.5</td><td>14668</td></tr>
 </table>
 
 ## WIPRO.NS
@@ -158,7 +158,7 @@ Last updated: 2026-07-14 15:45:55 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-07-14 15:29:00</td><td>248.89999389648438</td><td>38652</td></tr>
   <tr><td>2026-07-14 15:28:00</td><td>248.11000061035156</td><td>66860</td></tr>
-  <tr><td>2026-07-14 15:27:00</td><td>248.30999755859375</td><td>39483</td></tr>
 </table>
 
