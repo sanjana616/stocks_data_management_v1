@@ -1,6 +1,6 @@
 # 📈 Mid Cap Data Snapshot
 
-Last updated: 2026-07-14 15:43:53 IST
+Last updated: 2026-07-14 17:13:31 IST
 
 ## ALKEM.NS
 
@@ -30,8 +30,8 @@ Last updated: 2026-07-14 15:43:53 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-07-14 15:29:00</td><td>1038.300048828125</td><td>2562</td></tr>
   <tr><td>2026-07-14 15:28:00</td><td>1039.0999755859375</td><td>10639</td></tr>
-  <tr><td>2026-07-14 15:27:00</td><td>1038.5</td><td>3714</td></tr>
 </table>
 
 ## AUROPHARMA.NS
@@ -86,8 +86,8 @@ Last updated: 2026-07-14 15:43:53 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-07-14 15:29:00</td><td>434.45001220703125</td><td>11549</td></tr>
   <tr><td>2026-07-14 15:28:00</td><td>432.79998779296875</td><td>28912</td></tr>
-  <tr><td>2026-07-14 15:27:00</td><td>432.70001220703125</td><td>33333</td></tr>
 </table>
 
 ## DIXON.NS
@@ -126,8 +126,8 @@ Last updated: 2026-07-14 15:43:53 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-07-14 15:29:00</td><td>2107.39990234375</td><td>8633</td></tr>
   <tr><td>2026-07-14 15:28:00</td><td>2104.0</td><td>6055</td></tr>
-  <tr><td>2026-07-14 15:27:00</td><td>2107.0</td><td>2493</td></tr>
 </table>
 
 ## HAVELLS.NS
