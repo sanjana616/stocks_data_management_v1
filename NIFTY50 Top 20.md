@@ -1,6 +1,6 @@
 # 📈 NIFTY50 Top 20 Data Snapshot
 
-Last updated: 2026-07-15 15:57:08 IST
+Last updated: 2026-07-15 17:26:35 IST
 
 ## RELIANCE.NS
 
@@ -94,8 +94,8 @@ Last updated: 2026-07-15 15:57:08 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-07-15 15:29:00</td><td>1312.300048828125</td><td>9744</td></tr>
   <tr><td>2026-07-15 15:28:00</td><td>1312.4000244140625</td><td>22133</td></tr>
-  <tr><td>2026-07-15 15:27:00</td><td>1312.5</td><td>13774</td></tr>
 </table>
 
 ## BAJFINANCE.NS
@@ -118,8 +118,8 @@ Last updated: 2026-07-15 15:57:08 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-07-15 15:29:00</td><td>13583.0</td><td>640</td></tr>
   <tr><td>2026-07-15 15:28:00</td><td>13587.0</td><td>1804</td></tr>
-  <tr><td>2026-07-15 15:27:00</td><td>13593.0</td><td>4933</td></tr>
 </table>
 
 ## SUNPHARMA.NS
