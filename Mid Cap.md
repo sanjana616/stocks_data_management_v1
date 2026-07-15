@@ -1,6 +1,6 @@
 # 📈 Mid Cap Data Snapshot
 
-Last updated: 2026-07-15 15:56:27 IST
+Last updated: 2026-07-15 17:24:57 IST
 
 ## ALKEM.NS
 
@@ -110,16 +110,16 @@ Last updated: 2026-07-15 15:56:27 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-07-15 15:29:00</td><td>976.1500244140625</td><td>2316</td></tr>
   <tr><td>2026-07-15 15:28:00</td><td>976.2999877929688</td><td>12671</td></tr>
-  <tr><td>2026-07-15 15:27:00</td><td>976.0</td><td>8351</td></tr>
 </table>
 
 ## GMRAIRPORT.NS
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-07-15 15:29:00</td><td>111.81999969482422</td><td>33078</td></tr>
   <tr><td>2026-07-15 15:28:00</td><td>112.05000305175781</td><td>150405</td></tr>
-  <tr><td>2026-07-15 15:27:00</td><td>112.12000274658203</td><td>138911</td></tr>
 </table>
 
 ## GODREJPROP.NS
@@ -134,8 +134,8 @@ Last updated: 2026-07-15 15:56:27 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-07-15 15:29:00</td><td>1177.4000244140625</td><td>3570</td></tr>
   <tr><td>2026-07-15 15:28:00</td><td>1177.9000244140625</td><td>3365</td></tr>
-  <tr><td>2026-07-15 15:27:00</td><td>1176.5</td><td>3776</td></tr>
 </table>
 
 ## HEROMOTOCO.NS
