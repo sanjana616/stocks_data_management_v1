@@ -1,6 +1,6 @@
 # 📈 Low Cap Data Snapshot
 
-Last updated: 2026-07-15 15:57:38 IST
+Last updated: 2026-07-15 17:27:32 IST
 
 ## LALPATHLAB.NS
 
@@ -150,8 +150,8 @@ Last updated: 2026-07-15 15:57:38 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-07-15 15:29:00</td><td>669.2000122070312</td><td>6873</td></tr>
   <tr><td>2026-07-15 15:28:00</td><td>669.4000244140625</td><td>24363</td></tr>
-  <tr><td>2026-07-15 15:27:00</td><td>670.3499755859375</td><td>2471</td></tr>
 </table>
 
 ## AMBER.NS
