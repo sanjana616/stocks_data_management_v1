@@ -1,6 +1,6 @@
 # 📈 Mid Cap Data Snapshot
 
-Last updated: 2026-07-16 16:02:02 IST
+Last updated: 2026-07-16 17:36:40 IST
 
 ## ALKEM.NS
 
