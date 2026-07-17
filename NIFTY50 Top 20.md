@@ -1,6 +1,6 @@
 # 📈 NIFTY50 Top 20 Data Snapshot
 
-Last updated: 2026-07-17 15:46:13 IST
+Last updated: 2026-07-17 17:18:50 IST
 
 ## RELIANCE.NS
 
@@ -14,8 +14,8 @@ Last updated: 2026-07-17 15:46:13 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-07-17 15:29:00</td><td>819.5999755859375</td><td>80033</td></tr>
   <tr><td>2026-07-17 15:28:00</td><td>820.4000244140625</td><td>65335</td></tr>
-  <tr><td>2026-07-17 15:27:00</td><td>819.7999877929688</td><td>79090</td></tr>
 </table>
 
 ## ICICIBANK.NS
@@ -46,8 +46,8 @@ Last updated: 2026-07-17 15:46:13 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-07-17 15:29:00</td><td>280.70001220703125</td><td>77389</td></tr>
   <tr><td>2026-07-17 15:28:00</td><td>280.70001220703125</td><td>73765</td></tr>
-  <tr><td>2026-07-17 15:27:00</td><td>280.6000061035156</td><td>67771</td></tr>
 </table>
 
 ## HINDUNILVR.NS
@@ -70,8 +70,8 @@ Last updated: 2026-07-17 15:46:13 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-07-17 15:29:00</td><td>1908.800048828125</td><td>10917</td></tr>
   <tr><td>2026-07-17 15:28:00</td><td>1908.0</td><td>112983</td></tr>
-  <tr><td>2026-07-17 15:27:00</td><td>1909.5999755859375</td><td>34377</td></tr>
 </table>
 
 ## KOTAKBANK.NS
@@ -102,16 +102,16 @@ Last updated: 2026-07-17 15:46:13 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-07-17 15:29:00</td><td>1056.300048828125</td><td>26521</td></tr>
   <tr><td>2026-07-17 15:28:00</td><td>1055.5999755859375</td><td>29188</td></tr>
-  <tr><td>2026-07-17 15:27:00</td><td>1055.5999755859375</td><td>70734</td></tr>
 </table>
 
 ## ASIANPAINT.NS
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-07-17 15:29:00</td><td>2689.0</td><td>1812</td></tr>
   <tr><td>2026-07-17 15:28:00</td><td>2687.89990234375</td><td>3095</td></tr>
-  <tr><td>2026-07-17 15:27:00</td><td>2691.0</td><td>5380</td></tr>
 </table>
 
 ## MARUTI.NS
@@ -126,8 +126,8 @@ Last updated: 2026-07-17 15:46:13 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-07-17 15:29:00</td><td>1932.5999755859375</td><td>3901</td></tr>
   <tr><td>2026-07-17 15:28:00</td><td>1932.699951171875</td><td>25073</td></tr>
-  <tr><td>2026-07-17 15:27:00</td><td>1932.0</td><td>18689</td></tr>
 </table>
 
 ## WIPRO.NS
