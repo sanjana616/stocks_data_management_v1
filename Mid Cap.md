@@ -1,6 +1,6 @@
 # 📈 Mid Cap Data Snapshot
 
-Last updated: 2026-07-27 16:00:28 IST
+Last updated: 2026-07-27 18:58:00 IST
 
 ## ALKEM.NS
 
@@ -118,8 +118,8 @@ Last updated: 2026-07-27 16:00:28 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-07-27 15:29:00</td><td>108.0</td><td>37272</td></tr>
   <tr><td>2026-07-27 15:28:00</td><td>108.0</td><td>53101</td></tr>
-  <tr><td>2026-07-27 15:27:00</td><td>107.98999786376953</td><td>73220</td></tr>
 </table>
 
 ## GODREJPROP.NS
