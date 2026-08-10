@@ -1,20 +1,20 @@
 # 📈 High Cap Data Snapshot
 
-Last updated: 2026-08-10 15:26:09 IST
+Last updated: 2026-08-10 16:34:42 IST
 
 ## RELIANCE.NS
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-08-10 15:15:00</td><td>1327.300048828125</td><td>304041</td></tr>
   <tr><td>2026-08-10 15:14:00</td><td>1326.5999755859375</td><td>44373</td></tr>
-  <tr><td>2026-08-10 15:13:00</td><td>1326.0</td><td>55547</td></tr>
 </table>
 
 ## HDFCBANK.NS
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-08-10 15:15:00</td><td>731.9000244140625</td><td>0</td></tr>
+  <tr><td>2026-08-10 15:15:00</td><td>731.0</td><td>527821</td></tr>
   <tr><td>2026-08-10 15:14:00</td><td>731.9000244140625</td><td>26238</td></tr>
 </table>
 
@@ -22,7 +22,7 @@ Last updated: 2026-08-10 15:26:09 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-08-10 15:15:00</td><td>1428.199951171875</td><td>0</td></tr>
+  <tr><td>2026-08-10 15:15:00</td><td>1431.800048828125</td><td>340274</td></tr>
   <tr><td>2026-08-10 15:14:00</td><td>1428.4000244140625</td><td>15237</td></tr>
 </table>
 
@@ -30,7 +30,7 @@ Last updated: 2026-08-10 15:26:09 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-08-10 15:15:00</td><td>1182.0</td><td>0</td></tr>
+  <tr><td>2026-08-10 15:15:00</td><td>1183.0</td><td>121185</td></tr>
   <tr><td>2026-08-10 15:14:00</td><td>1183.199951171875</td><td>23715</td></tr>
 </table>
 
@@ -38,7 +38,7 @@ Last updated: 2026-08-10 15:26:09 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-08-10 15:15:00</td><td>2431.39990234375</td><td>0</td></tr>
+  <tr><td>2026-08-10 15:15:00</td><td>2425.699951171875</td><td>51836</td></tr>
   <tr><td>2026-08-10 15:14:00</td><td>2431.0</td><td>5966</td></tr>
 </table>
 
@@ -46,15 +46,15 @@ Last updated: 2026-08-10 15:26:09 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-08-10 15:15:00</td><td>282.6499938964844</td><td>123754</td></tr>
   <tr><td>2026-08-10 15:14:00</td><td>281.95001220703125</td><td>162693</td></tr>
-  <tr><td>2026-08-10 15:13:00</td><td>282.1000061035156</td><td>79184</td></tr>
 </table>
 
 ## HINDUNILVR.NS
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-08-10 15:15:00</td><td>2082.0</td><td>0</td></tr>
+  <tr><td>2026-08-10 15:15:00</td><td>2087.199951171875</td><td>33084</td></tr>
   <tr><td>2026-08-10 15:14:00</td><td>2082.0</td><td>1652</td></tr>
 </table>
 
@@ -62,15 +62,15 @@ Last updated: 2026-08-10 15:26:09 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-08-10 15:15:00</td><td>1071.0</td><td>93671</td></tr>
   <tr><td>2026-08-10 15:14:00</td><td>1071.0</td><td>50997</td></tr>
-  <tr><td>2026-08-10 15:13:00</td><td>1071.0999755859375</td><td>33003</td></tr>
 </table>
 
 ## BHARTIARTL.NS
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-08-10 15:15:00</td><td>1941.0</td><td>0</td></tr>
+  <tr><td>2026-08-10 15:15:00</td><td>1943.0</td><td>107327</td></tr>
   <tr><td>2026-08-10 15:14:00</td><td>1937.800048828125</td><td>19409</td></tr>
 </table>
 
@@ -78,7 +78,7 @@ Last updated: 2026-08-10 15:26:09 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-08-10 15:15:00</td><td>392.5</td><td>0</td></tr>
+  <tr><td>2026-08-10 15:15:00</td><td>393.5</td><td>246765</td></tr>
   <tr><td>2026-08-10 15:14:00</td><td>392.5</td><td>32094</td></tr>
 </table>
 
@@ -86,7 +86,7 @@ Last updated: 2026-08-10 15:26:09 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-08-10 15:15:00</td><td>4073.0</td><td>0</td></tr>
+  <tr><td>2026-08-10 15:15:00</td><td>4080.0</td><td>26360</td></tr>
   <tr><td>2026-08-10 15:14:00</td><td>4071.0</td><td>6820</td></tr>
 </table>
 
@@ -94,7 +94,7 @@ Last updated: 2026-08-10 15:26:09 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-08-10 15:15:00</td><td>1246.5</td><td>0</td></tr>
+  <tr><td>2026-08-10 15:15:00</td><td>1247.300048828125</td><td>149078</td></tr>
   <tr><td>2026-08-10 15:14:00</td><td>1246.5999755859375</td><td>24780</td></tr>
 </table>
 
@@ -102,15 +102,15 @@ Last updated: 2026-08-10 15:26:09 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-08-10 15:15:00</td><td>1102.199951171875</td><td>118988</td></tr>
   <tr><td>2026-08-10 15:14:00</td><td>1105.0</td><td>140428</td></tr>
-  <tr><td>2026-08-10 15:13:00</td><td>1099.199951171875</td><td>83823</td></tr>
 </table>
 
 ## ASIANPAINT.NS
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-08-10 15:15:00</td><td>2748.5</td><td>0</td></tr>
+  <tr><td>2026-08-10 15:15:00</td><td>2750.0</td><td>43930</td></tr>
   <tr><td>2026-08-10 15:14:00</td><td>2747.300048828125</td><td>5326</td></tr>
 </table>
 
@@ -118,7 +118,7 @@ Last updated: 2026-08-10 15:26:09 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-08-10 15:15:00</td><td>14099.0</td><td>0</td></tr>
+  <tr><td>2026-08-10 15:15:00</td><td>14097.0</td><td>4792</td></tr>
   <tr><td>2026-08-10 15:14:00</td><td>14099.0</td><td>1607</td></tr>
 </table>
 
@@ -126,7 +126,7 @@ Last updated: 2026-08-10 15:26:09 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-08-10 15:15:00</td><td>1949.300048828125</td><td>0</td></tr>
+  <tr><td>2026-08-10 15:15:00</td><td>1944.4000244140625</td><td>106934</td></tr>
   <tr><td>2026-08-10 15:14:00</td><td>1948.0</td><td>4709</td></tr>
 </table>
 
@@ -134,7 +134,7 @@ Last updated: 2026-08-10 15:26:09 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-08-10 15:15:00</td><td>185.11000061035156</td><td>0</td></tr>
+  <tr><td>2026-08-10 15:15:00</td><td>185.5</td><td>223290</td></tr>
   <tr><td>2026-08-10 15:14:00</td><td>185.00999450683594</td><td>25851</td></tr>
 </table>
 
@@ -142,7 +142,7 @@ Last updated: 2026-08-10 15:26:09 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-08-10 15:15:00</td><td>270.79998779296875</td><td>0</td></tr>
+  <tr><td>2026-08-10 15:15:00</td><td>270.1000061035156</td><td>218220</td></tr>
   <tr><td>2026-08-10 15:14:00</td><td>270.79998779296875</td><td>56262</td></tr>
 </table>
 
@@ -150,7 +150,7 @@ Last updated: 2026-08-10 15:26:09 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-08-10 15:15:00</td><td>339.6000061035156</td><td>0</td></tr>
+  <tr><td>2026-08-10 15:15:00</td><td>340.45001220703125</td><td>126799</td></tr>
   <tr><td>2026-08-10 15:14:00</td><td>339.3999938964844</td><td>29318</td></tr>
 </table>
 
@@ -158,7 +158,7 @@ Last updated: 2026-08-10 15:26:09 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-08-10 15:15:00</td><td>239.25</td><td>0</td></tr>
+  <tr><td>2026-08-10 15:15:00</td><td>239.83999633789062</td><td>351195</td></tr>
   <tr><td>2026-08-10 15:14:00</td><td>239.25</td><td>23734</td></tr>
 </table>
 
