@@ -1,6 +1,6 @@
 # 📈 High Cap Data Snapshot
 
-Last updated: 2026-08-11 16:02:16 IST
+Last updated: 2026-08-11 16:59:11 IST
 
 ## RELIANCE.NS
 
