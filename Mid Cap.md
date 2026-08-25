@@ -1,6 +1,6 @@
 # 📈 Mid Cap Data Snapshot
 
-Last updated: 2026-08-25 15:48:05 IST
+Last updated: 2026-08-25 16:26:07 IST
 
 ## ALKEM.NS
 
@@ -14,8 +14,8 @@ Last updated: 2026-08-25 15:48:05 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-08-25 15:15:00</td><td>2139.300048828125</td><td>5642</td></tr>
   <tr><td>2026-08-25 15:14:00</td><td>2135.0</td><td>1462</td></tr>
-  <tr><td>2026-08-25 15:13:00</td><td>2132.10009765625</td><td>2635</td></tr>
 </table>
 
 ## ASHOKLEY.NS
@@ -30,8 +30,8 @@ Last updated: 2026-08-25 15:48:05 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-08-25 15:14:00</td><td>1128.5999755859375</td><td>65462</td></tr>
   <tr><td>2026-08-25 15:13:00</td><td>1135.5</td><td>15368</td></tr>
-  <tr><td>2026-08-25 15:12:00</td><td>1134.300048828125</td><td>59997</td></tr>
 </table>
 
 ## AUROPHARMA.NS
@@ -46,8 +46,8 @@ Last updated: 2026-08-25 15:48:05 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-08-25 15:14:00</td><td>2052.5</td><td>21494</td></tr>
   <tr><td>2026-08-25 15:13:00</td><td>2042.5999755859375</td><td>3081</td></tr>
-  <tr><td>2026-08-25 15:12:00</td><td>2043.5999755859375</td><td>8822</td></tr>
 </table>
 
 ## BHEL.NS
@@ -62,48 +62,48 @@ Last updated: 2026-08-25 15:48:05 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-08-25 15:15:00</td><td>3303.0</td><td>28795</td></tr>
   <tr><td>2026-08-25 15:14:00</td><td>3295.800048828125</td><td>7581</td></tr>
-  <tr><td>2026-08-25 15:13:00</td><td>3298.699951171875</td><td>9036</td></tr>
 </table>
 
 ## COFORGE.NS
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-08-25 15:15:00</td><td>1892.800048828125</td><td>13318</td></tr>
   <tr><td>2026-08-25 15:14:00</td><td>1892.699951171875</td><td>4300</td></tr>
-  <tr><td>2026-08-25 15:13:00</td><td>1898.0</td><td>3463</td></tr>
 </table>
 
 ## COLPAL.NS
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-08-25 15:14:00</td><td>1876.800048828125</td><td>5084</td></tr>
   <tr><td>2026-08-25 15:13:00</td><td>1868.9000244140625</td><td>1819</td></tr>
-  <tr><td>2026-08-25 15:12:00</td><td>1870.0</td><td>4389</td></tr>
 </table>
 
 ## DABUR.NS
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-08-25 15:15:00</td><td>395.04998779296875</td><td>24548</td></tr>
   <tr><td>2026-08-25 15:14:00</td><td>394.0</td><td>7468</td></tr>
-  <tr><td>2026-08-25 15:13:00</td><td>394.25</td><td>16558</td></tr>
 </table>
 
 ## DIXON.NS
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-08-25 15:14:00</td><td>14990.0</td><td>22260</td></tr>
   <tr><td>2026-08-25 15:13:00</td><td>14934.0</td><td>10550</td></tr>
-  <tr><td>2026-08-25 15:12:00</td><td>14861.0</td><td>7489</td></tr>
 </table>
 
 ## FEDERALBNK.NS
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-08-25 15:14:00</td><td>346.95001220703125</td><td>331234</td></tr>
   <tr><td>2026-08-25 15:13:00</td><td>348.5</td><td>41391</td></tr>
-  <tr><td>2026-08-25 15:12:00</td><td>348.5</td><td>185630</td></tr>
 </table>
 
 ## FORTIS.NS
@@ -118,8 +118,8 @@ Last updated: 2026-08-25 15:48:05 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-08-25 15:15:00</td><td>99.8499984741211</td><td>84352</td></tr>
   <tr><td>2026-08-25 15:14:00</td><td>99.02999877929688</td><td>27555</td></tr>
-  <tr><td>2026-08-25 15:13:00</td><td>99.16999816894531</td><td>24530</td></tr>
 </table>
 
 ## GODREJPROP.NS
@@ -142,8 +142,8 @@ Last updated: 2026-08-25 15:48:05 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-08-25 15:14:00</td><td>5624.5</td><td>26418</td></tr>
   <tr><td>2026-08-25 15:13:00</td><td>5619.5</td><td>9092</td></tr>
-  <tr><td>2026-08-25 15:12:00</td><td>5620.0</td><td>13753</td></tr>
 </table>
 
 ## HINDPETRO.NS
@@ -158,7 +158,7 @@ Last updated: 2026-08-25 15:48:05 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-08-25 15:15:00</td><td>1422.699951171875</td><td>694326</td></tr>
   <tr><td>2026-08-25 15:14:00</td><td>1420.800048828125</td><td>74051</td></tr>
-  <tr><td>2026-08-25 15:13:00</td><td>1421.0</td><td>62598</td></tr>
 </table>
 
