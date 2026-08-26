@@ -1,6 +1,6 @@
 # 📈 NIFTY50 Top 20 Data Snapshot
 
-Last updated: 2026-08-26 15:55:22 IST
+Last updated: 2026-08-26 16:29:23 IST
 
 ## RELIANCE.NS
 
@@ -126,8 +126,8 @@ Last updated: 2026-08-26 15:55:22 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-08-26 15:15:00</td><td>1899.5</td><td>125096</td></tr>
   <tr><td>2026-08-26 15:14:00</td><td>1910.199951171875</td><td>4017</td></tr>
-  <tr><td>2026-08-26 15:13:00</td><td>1910.0</td><td>2814</td></tr>
 </table>
 
 ## WIPRO.NS
