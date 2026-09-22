@@ -43888,3 +43888,45 @@
 2026-09-22 13:47:59,287 - INFO - [AMBER.NS] Inserted 359 rows (duplicates ignored)
 2026-09-22 13:47:59,287 - INFO - Inserted 359 rows for AMBER.NS
 2026-09-22 13:47:59,297 - INFO - Cycle complete. README updated.
+2026-09-22 13:56:11,080 - INFO - Starting data fetch cycle...
+2026-09-22 13:56:11,803 - INFO - [RELIANCE.NS] Inserted 361 rows (duplicates ignored)
+2026-09-22 13:56:11,803 - INFO - Inserted 361 rows for RELIANCE.NS
+2026-09-22 13:56:12,050 - INFO - [HDFCBANK.NS] Inserted 361 rows (duplicates ignored)
+2026-09-22 13:56:12,050 - INFO - Inserted 361 rows for HDFCBANK.NS
+2026-09-22 13:56:12,275 - INFO - [ICICIBANK.NS] Inserted 361 rows (duplicates ignored)
+2026-09-22 13:56:12,275 - INFO - Inserted 361 rows for ICICIBANK.NS
+2026-09-22 13:56:12,551 - INFO - [INFY.NS] Inserted 361 rows (duplicates ignored)
+2026-09-22 13:56:12,552 - INFO - Inserted 361 rows for INFY.NS
+2026-09-22 13:56:12,796 - INFO - [TCS.NS] Inserted 361 rows (duplicates ignored)
+2026-09-22 13:56:12,796 - INFO - Inserted 361 rows for TCS.NS
+2026-09-22 13:56:13,126 - INFO - [ITC.NS] Inserted 361 rows (duplicates ignored)
+2026-09-22 13:56:13,127 - INFO - Inserted 361 rows for ITC.NS
+2026-09-22 13:56:13,344 - INFO - [HINDUNILVR.NS] Inserted 361 rows (duplicates ignored)
+2026-09-22 13:56:13,344 - INFO - Inserted 361 rows for HINDUNILVR.NS
+2026-09-22 13:56:13,577 - INFO - [SBIN.NS] Inserted 361 rows (duplicates ignored)
+2026-09-22 13:56:13,577 - INFO - Inserted 361 rows for SBIN.NS
+2026-09-22 13:56:13,793 - INFO - [BHARTIARTL.NS] Inserted 361 rows (duplicates ignored)
+2026-09-22 13:56:13,793 - INFO - Inserted 361 rows for BHARTIARTL.NS
+2026-09-22 13:56:14,060 - INFO - [KOTAKBANK.NS] Inserted 361 rows (duplicates ignored)
+2026-09-22 13:56:14,060 - INFO - Inserted 361 rows for KOTAKBANK.NS
+2026-09-22 13:56:14,355 - INFO - [LT.NS] Inserted 360 rows (duplicates ignored)
+2026-09-22 13:56:14,355 - INFO - Inserted 360 rows for LT.NS
+2026-09-22 13:56:14,594 - INFO - [AXISBANK.NS] Inserted 361 rows (duplicates ignored)
+2026-09-22 13:56:14,594 - INFO - Inserted 361 rows for AXISBANK.NS
+2026-09-22 13:56:14,816 - INFO - [BAJFINANCE.NS] Inserted 361 rows (duplicates ignored)
+2026-09-22 13:56:14,816 - INFO - Inserted 361 rows for BAJFINANCE.NS
+2026-09-22 13:56:15,164 - INFO - [ASIANPAINT.NS] Inserted 361 rows (duplicates ignored)
+2026-09-22 13:56:15,164 - INFO - Inserted 361 rows for ASIANPAINT.NS
+2026-09-22 13:56:15,384 - INFO - [MARUTI.NS] Inserted 361 rows (duplicates ignored)
+2026-09-22 13:56:15,384 - INFO - Inserted 361 rows for MARUTI.NS
+2026-09-22 13:56:15,740 - INFO - [SUNPHARMA.NS] Inserted 361 rows (duplicates ignored)
+2026-09-22 13:56:15,740 - INFO - Inserted 361 rows for SUNPHARMA.NS
+2026-09-22 13:56:15,964 - INFO - [WIPRO.NS] Inserted 361 rows (duplicates ignored)
+2026-09-22 13:56:15,964 - INFO - Inserted 361 rows for WIPRO.NS
+2026-09-22 13:56:16,287 - INFO - [POWERGRID.NS] Inserted 361 rows (duplicates ignored)
+2026-09-22 13:56:16,288 - INFO - Inserted 361 rows for POWERGRID.NS
+2026-09-22 13:56:16,553 - INFO - [NTPC.NS] Inserted 360 rows (duplicates ignored)
+2026-09-22 13:56:16,553 - INFO - Inserted 360 rows for NTPC.NS
+2026-09-22 13:56:16,798 - INFO - [ONGC.NS] Inserted 361 rows (duplicates ignored)
+2026-09-22 13:56:16,798 - INFO - Inserted 361 rows for ONGC.NS
+2026-09-22 13:56:16,809 - INFO - Cycle complete. README updated.
