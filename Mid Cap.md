@@ -1,6 +1,6 @@
 # 📈 Mid Cap Data Snapshot
 
-Last updated: 2026-10-29 15:58:25 IST
+Last updated: 2026-10-29 22:31:05 IST
 
 ## ALKEM.NS
 
@@ -54,16 +54,16 @@ Last updated: 2026-10-29 15:58:25 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-10-29 15:29:00</td><td>401.95001220703125</td><td>104811</td></tr>
   <tr><td>2026-10-29 15:15:00</td><td>401.1499938964844</td><td>5553</td></tr>
-  <tr><td>2026-10-29 15:14:00</td><td>400.95001220703125</td><td>57571</td></tr>
 </table>
 
 ## BSE.NS
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
+  <tr><td>2026-10-29 15:29:00</td><td>3502.0</td><td>22628</td></tr>
   <tr><td>2026-10-29 15:15:00</td><td>3506.0</td><td>1</td></tr>
-  <tr><td>2026-10-29 15:14:00</td><td>3506.0</td><td>14732</td></tr>
 </table>
 
 ## COFORGE.NS
