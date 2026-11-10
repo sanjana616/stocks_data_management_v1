@@ -1,6 +1,6 @@
 # 📈 Low Cap Data Snapshot
 
-Last updated: 2026-11-09 17:52:35 IST
+Last updated: 2026-11-10 17:28:04 IST
 
 ## LALPATHLAB.NS
 
@@ -22,7 +22,7 @@ Last updated: 2026-11-09 17:52:35 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-11-09 15:28:00</td><td>80.4000015258789</td><td>91784</td></tr>
+  <tr><td>2026-11-09 15:28:00</td><td>80.4000015258789</td><td>10509232</td></tr>
   <tr><td>2026-11-09 15:14:00</td><td>80.33999633789062</td><td>117846</td></tr>
 </table>
 
@@ -30,7 +30,7 @@ Last updated: 2026-11-09 17:52:35 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-11-09 15:28:00</td><td>1111.4000244140625</td><td>3791</td></tr>
+  <tr><td>2026-11-09 15:28:00</td><td>1111.4000244140625</td><td>431929</td></tr>
   <tr><td>2026-11-09 15:15:00</td><td>1112.199951171875</td><td>496</td></tr>
 </table>
 
@@ -46,7 +46,7 @@ Last updated: 2026-11-09 17:52:35 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-11-09 15:28:00</td><td>3300.0</td><td>1781</td></tr>
+  <tr><td>2026-11-09 15:28:00</td><td>3300.0</td><td>392240</td></tr>
   <tr><td>2026-11-09 15:15:00</td><td>3301.300048828125</td><td>10</td></tr>
 </table>
 
@@ -70,7 +70,7 @@ Last updated: 2026-11-09 17:52:35 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-11-09 15:29:00</td><td>3302.39990234375</td><td>1646</td></tr>
+  <tr><td>2026-11-09 15:29:00</td><td>3302.39990234375</td><td>2436961</td></tr>
   <tr><td>2026-11-09 15:28:00</td><td>3293.89990234375</td><td>2048</td></tr>
 </table>
 
@@ -94,7 +94,7 @@ Last updated: 2026-11-09 17:52:35 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-11-09 15:29:00</td><td>1626.0999755859375</td><td>456</td></tr>
+  <tr><td>2026-11-09 15:29:00</td><td>1626.0999755859375</td><td>272189</td></tr>
   <tr><td>2026-11-09 15:28:00</td><td>1622.5</td><td>516</td></tr>
 </table>
 
@@ -110,7 +110,7 @@ Last updated: 2026-11-09 17:52:35 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-11-09 15:28:00</td><td>338.0</td><td>27428</td></tr>
+  <tr><td>2026-11-09 15:28:00</td><td>338.0</td><td>8030100</td></tr>
   <tr><td>2026-11-09 15:15:00</td><td>338.0</td><td>391</td></tr>
 </table>
 
@@ -118,7 +118,7 @@ Last updated: 2026-11-09 17:52:35 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-11-09 15:28:00</td><td>218.89999389648438</td><td>10434</td></tr>
+  <tr><td>2026-11-09 15:28:00</td><td>218.89999389648438</td><td>5355894</td></tr>
   <tr><td>2026-11-09 15:15:00</td><td>220.5</td><td>11060</td></tr>
 </table>
 
@@ -126,7 +126,7 @@ Last updated: 2026-11-09 17:52:35 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-11-09 15:29:00</td><td>733.5</td><td>1127</td></tr>
+  <tr><td>2026-11-09 15:29:00</td><td>733.5</td><td>2061471</td></tr>
   <tr><td>2026-11-09 15:28:00</td><td>732.5499877929688</td><td>3601</td></tr>
 </table>
 
@@ -150,7 +150,7 @@ Last updated: 2026-11-09 17:52:35 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-11-09 15:28:00</td><td>924.0</td><td>107192</td></tr>
+  <tr><td>2026-11-09 15:28:00</td><td>924.0</td><td>1340411</td></tr>
   <tr><td>2026-11-09 15:15:00</td><td>918.0</td><td>0</td></tr>
 </table>
 
@@ -158,7 +158,7 @@ Last updated: 2026-11-09 17:52:35 IST
 
 <table>
   <tr><th>Datetime</th><th>Close</th><th>Volume</th></tr>
-  <tr><td>2026-11-09 15:28:00</td><td>6230.0</td><td>982</td></tr>
+  <tr><td>2026-11-09 15:28:00</td><td>6230.0</td><td>355476</td></tr>
   <tr><td>2026-11-09 15:15:00</td><td>6227.5</td><td>2</td></tr>
 </table>
 
