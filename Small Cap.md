@@ -1,6 +1,6 @@
 # 📈 Low Cap Data Snapshot
 
-Last updated: 2026-11-23 19:24:16 IST
+Last updated: 2026-11-24 19:56:25 IST
 
 ## LALPATHLAB.NS
 
